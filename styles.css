@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #2f2f2f;
+    color: #ffff;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, p, footer{
+    margin: 1em auto;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    padding-bottom: 2em;
+}
+
+fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 5px dashed #fe6f27;
+}
+
+fieldset:last-of-type{
+    border-bottom: none;
+}
+
+label{
+    display: block;
+    margin: 1rem 0;;
+}
+
+legend{
+    padding-top: 1em;
+}
+
+input, textarea, select{
+    margin: 15px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
