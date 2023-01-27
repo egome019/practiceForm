@@ -34,20 +34,30 @@
 			<fieldset>
 				<legend>Preferred Role</legend>
 				<label for="solo"
-					><input id="solo" name="role" type="radio" /> Solo</label
+					><input class="radio-align" id="solo" name="role" type="radio" />
+					Solo</label
 				>
 				<label for="support"
-					><input id="support" name="role" type="radio" /> Support</label
+					><input id="support" class="radio-align" name="role" type="radio" />
+					Support</label
 				>
 				<label for="medic"
-					><input id="medic" name="role" type="radio" /> Medic</label
+					><input id="medic" name="role" type="radio" class="radio-align" />
+					Medic</label
 				>
 				<label for="captain"
-					><input id="captain" name="role" type="radio" /> Captain</label
+					><input id="captain" name="role" type="radio" class="radio-align" />
+					Captain</label
 				>
 				<label for="terms"
-					><input id="terms" name="role" type="checkbox" required /> I accept
-					the Terms and Conditions</label
+					><input
+						id="terms"
+						name="role"
+						type="checkbox"
+						class="radio-align"
+						required
+					/>
+					I accept the Terms and Conditions</label
 				>
 			</fieldset>
 			<fieldset>
@@ -71,6 +81,8 @@
 				<label for="inspiration"
 					>How did you get inspired to become a Superhero?
 					<textarea
+						rows="10"
+						cols="30"
 						placeholder="I like wearing tights..."
 						id="inspiration"
 						name="inspiration"
