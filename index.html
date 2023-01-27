@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Superhero Form</title>
+	</head>
+	<body>
+		<header>
+			<h1>Superhero Form</h1>
+		</header>
+		<p>If you are interested in being a Super Hero please fill out the form!</p>
+		<form method="post" action="https://www.espn.com/">
+			<fieldset>
+				<label for="first-name"
+					>First Name:
+					<input id="first-name" name="first-name" type="text" required
+				/></label>
+				<label for="last-name"
+					>Last Name:
+					<input id="last-name" name="last-name" type="text" required
+				/></label>
+				<label for="super-power"
+					>Super Power:
+					<input id="super-power" name="super-power" required type="text"
+				/></label>
+				<label for="hero-name"
+					>Hero Name:
+					<input id="hero-name" name="hero-name" type="text" required
+				/></label>
+			</fieldset>
+			<fieldset>
+				<legend>Preferred Role</legend>
+				<label for="solo"
+					>Solo <input id="solo" name="role" type="radio"
+				/></label>
+				<label for="support"
+					>Support <input id="support" name="role" type="radio"
+				/></label>
+				<label for="medic"
+					>Medic <input id="medic" name="role" type="radio"
+				/></label>
+				<label for="captain"
+					>Captain <input id="captain" name="role" type="radio"
+				/></label>
+				<label for="terms"
+					>I accept the Terms and Conditions
+					<input id="terms" name="role" type="checkbox" required
+				/></label>
+			</fieldset>
+			<fieldset>
+				<label for="profile-pic"
+					>Upload picture for badge:
+					<input id="profile-pic" name="profile-pic" type="file"
+				/></label>
+				<label for="age"
+					>Age: <input id="age" name="age" type="number"
+				/></label>
+				<label for="referrer"
+					>How did you hear about us?
+					<select id="referrer" name="referrer">
+						<option>-Select One-</option>
+						<option>YouTube</option>
+						<option>Magazine</option>
+						<option>Twitter</option>
+						<option>A Friend</option>
+					</select></label
+				>
+				<label for="inspiration"
+					>How did you get inspired to become a Superhero?
+					<textarea
+						placeholder="I like wearing tights..."
+						id="inspiration"
+						name="inspiration"
+					></textarea>
+				</label>
+			</fieldset>
+		</form>
+		<button type="submit">Submit</button>
+		<footer>Copyright Mind Your Business...</footer>
+	</body>
+</html>
